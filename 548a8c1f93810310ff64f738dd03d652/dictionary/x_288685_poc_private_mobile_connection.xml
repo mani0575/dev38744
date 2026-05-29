@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="28a81b7fc2624caca1c43f0190d1a7ad" label="Private Mobile Connection" name="x_288685_poc_private_mobile_connection" type="collection">
+        <element choice="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Canceled" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Closed" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Resolved" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="PRI" mandatory="true" max_length="32" name="pri" reference="incident" type="reference"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <index name="index">
+            <element name="pri"/>
+        </index>
+    </element>
+</database>
