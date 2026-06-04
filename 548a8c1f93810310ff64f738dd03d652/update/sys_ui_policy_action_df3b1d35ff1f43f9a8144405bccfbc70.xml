@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
-  <sys_ui_policy_action action="INSERT_OR_UPDATE">
-    <sys_id>df3b1d35ff1f43f9a8144405bccfbc70</sys_id>
-    <sys_scope display_value="x_288685_poc">548a8c1f93810310ff64f738dd03d652</sys_scope>
-    <sys_update_name>sys_ui_policy_action_df3b1d35ff1f43f9a8144405bccfbc70</sys_update_name>
-    <cleared>false</cleared>
-    <disabled>ignore</disabled>
-    <field>reason</field>
-    <field_message/>
-    <field_message_type>none</field_message_type>
-    <mandatory>ignore</mandatory>
-    <table>x_288685_poc_private_mobile_connection</table>
-    <ui_policy short_description="Show Reason when State is On Hold" table="x_288685_poc_private_mobile_connection">d2ff57d93e274cdfa90aa234b49600d9</ui_policy>
-    <value/>
-    <value_action>ignore</value_action>
-    <visible>true</visible>
-  </sys_ui_policy_action>
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reason</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:12:45</sys_created_on>
+        <sys_id>df3b1d35ff1f43f9a8144405bccfbc70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason</sys_name>
+        <sys_package display_value="POC" source="x_288685_poc">548a8c1f93810310ff64f738dd03d652</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="POC">548a8c1f93810310ff64f738dd03d652</sys_scope>
+        <sys_update_name>sys_ui_policy_action_df3b1d35ff1f43f9a8144405bccfbc70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:12:45</sys_updated_on>
+        <table>x_288685_poc_private_mobile_connection</table>
+        <ui_policy display_value="Show Reason when State is On Hold">d2ff57d93e274cdfa90aa234b49600d9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=df3b1d35ff1f43f9a8144405bccfbc70"/>
 </record_update>
